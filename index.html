@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>About-叶彩blog</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="Isai,叶彩,主页">
+    <meta name="description" content="叶彩的个人主页">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./statics/css/main.css">
+    <link rel="stylesheet" href="./statics/css/font-awesome.min.css">
+    <script src="./statics/js/jquery.min.js"></script>
+    <script src="./statics/js/aplayer.min.js"></script>
+  </head>
+  <body>
+    <div class="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <script>
+        var picnum = parseInt(Math.random()*7+1);
+        document.write('<div class="bak" style="background-image: url(./statics/img/image_'+picnum+'.jpg);"></div>');
+    </script>
+    <main>
+        <div class="content">
+            <div class="left">
+                <div class="avatar">
+                    <img src="./statics/img/head.png">
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a goto="#home" class="active">HOME</a>
+                    </li>
+                    <li>
+                        <a goto="#archives">ARCHIVES</a>
+                    </li>
+                    <li>
+                        <a goto="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a goto="#donate">DONATE</a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    Made with
+                    <i class="fa fa-heart"></i> by
+                    <br>
+                    <a href="https://fly.moe" target="_blank">Fly3949</a>
+                    &
+                    <a href="https://moedog.org" target="_blank">Moedog</a>
+                </div>
+            </div>
+            <div class="right">
+                <section id="home" class="active">
+                    <h1>叶彩</h1>
+                    <div class="items">
+                        <a href="https://www.spacezero.top" target="_blank" rel="noopener">
+                            <i class="fa fa-home"></i>
+                            <span>Blog</span>
+                        </a>
+                        <a href="https://github.com/isai2010go" target="_blank" rel="noopener">
+                            <i class="fa fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:isai@spacezero.top" target="_blank" rel="noopener">
+                            <i class="fa fa-envelope"></i>
+                            <span>E-Mail</span>
+                        </a>
+                        <a href="https://x.com/isai2010go" target="_blank" rel="noopener">
+                            <i class="fa fa-twitter"></i>
+                            <span>X</span>
+                        </a>
+                        <a href="https://t.me/isai2010go" target="_blank" rel="noopener">
+                            <i class="fa fa-telegram"></i>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </section>
+                <section id="archives">
+                    <h1>近期文章</h1>
+                    <ul class="archive-list">
+                        <li>Loading...</li>
+                    </ul>
+                </section>
+                <section id="about">
+                    <h1>关于</h1>
+                    <p>
+                        这里是叶彩，一个新手站长<br>
+                         高中生/ 宅 / 2.5次元 / 萌物( ? ? )<br>
+                        こいぬちゃん赛高 ! / 瞎折腾 / 搞事情 / <a href="https://www.spacezero.top/about.html" target="_blank">More...</a>
+                    </p>
+                </section>
+                <section id="donate">
+                    <h1>求投食喵 !</h1>
+                    <div class="donate-img-box">
+                        <a href="https://www.spacezero.top" target="_blank" rel="noopener">
+                            <img src="./statics/img/poor.png" >
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <p id="hitokoto">Loading...</p>
+            <div class="copyright-mobile">
+                Made with
+                <i class="fa fa-heart"></i> by
+                <a href="https://fly.moe" target="_blank">Fly3949</a>
+                &
+                <a href="https://moedog.org" target="_blank">Moedog</a>
+            </div>
+        </footer>
+        <div class="aplayer-footer">
+            <div class="ap-f" id="ap-f"></div>
+        </div>
+    </main>
+    <script src="./statics/js/main.js"></script>
+  </body>
+</html>
