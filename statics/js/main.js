@@ -18,7 +18,7 @@ function getAchives(){
     t = ``;
     $.ajax({
         type:"GET",
-        url:"https://www.spacezero.top/api/get_posts/",
+        url:"https://www.spacezero.top/wp-json/wp/v2/posts?per_page=8&page=1",
         dataType:"json",
         success:function(json){
             for(var i = 0;i < json.length;i++){
